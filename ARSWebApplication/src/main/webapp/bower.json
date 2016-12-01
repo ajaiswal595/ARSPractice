@@ -1,0 +1,22 @@
+{
+  "name": "ARSWebApplication",
+  "homepage": "https://github.com/ajaiswal595/ARSPractice",
+  "authors": [
+    "ajaiswal595 <ajaiswal595@gmail.com>"
+  ],
+  "description": "It's a just purpose of practice to work on ars web app",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "none",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9"
+  }
+}
