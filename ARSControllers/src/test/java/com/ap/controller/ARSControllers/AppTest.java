@@ -1,5 +1,7 @@
 package com.ap.controller.ARSControllers;
 
+import com.arspracticeservices.app.Calculator;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -34,5 +36,10 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+    
+    public void testAdd(){
+    	Calculator calc=new Calculator();
+    	assertEquals(11, calc.add(5, 6));
     }
 }

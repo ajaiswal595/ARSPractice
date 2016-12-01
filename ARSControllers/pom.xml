@@ -21,5 +21,12 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.arspracticeservices.app</groupId>
+      <artifactId>ARSServices</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <scope>runtime</scope>
+    </dependency>
+    
   </dependencies>
 </project>
